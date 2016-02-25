@@ -1,0 +1,35 @@
+{
+  "name": "roboto-buffer",
+  "description": "Google Roboto font as Buffer",
+  "version": "0.1.0",
+  "author": "Orbin",
+  "keywords": [
+    "roboto",
+    "buffer",
+    "font"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbin-ch/roboto-buffer"
+  },
+  "main": "dist/roboto-buffer.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "buffer-loader": "^0.0.1",
+    "clean-webpack-plugin": "^0.1.8",
+    "roboto-fontface": "^0.4.3",
+    "webpack": "^1.12.11"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
